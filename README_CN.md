@@ -108,3 +108,17 @@ tensorboard --logdir=logs/
 本项目使用的卷积神经网络来自 Nature 论文：
 
 [1] [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
+
+
+
+本人的安裝過程
+
+Step1.
+    conda create -n SnakeAI python=3.8.16
+    conda activate SnakeAI
+
+Step2.
+    conda install pytorch=2.0.0 torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+    python .\utils\check_gpu_status.py
+    (In gym-0.21.0 file)python setup.py install
+    pip install -r requirements.txt

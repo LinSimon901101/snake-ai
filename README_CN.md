@@ -113,6 +113,7 @@ tensorboard --logdir=logs/
 
 本人的安裝過程
 
+```bash
 Step1.
     conda create -n SnakeAI python=3.8.16
     conda activate SnakeAI
@@ -122,3 +123,4 @@ Step2.
     python .\utils\check_gpu_status.py
     (In gym-0.21.0 file)python setup.py install
     pip install -r requirements.txt
+```

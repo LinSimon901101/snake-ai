@@ -9,7 +9,7 @@ from snake_game_custom_wrapper_cnn import SnakeEnv
 if torch.backends.mps.is_available():
     MODEL_PATH = r"trained_models_cnn_mps/ppo_snake_final"
 else:
-    MODEL_PATH = r"trained_models_cnn/ppo_snake_5000000_steps"
+    MODEL_PATH = r"trained_models_cnn/ppo_snake_81500000_steps"
 
 NUM_EPISODE = 10
 
